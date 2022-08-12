@@ -3,57 +3,39 @@
 /*******************************************/
 
 /* Box Model Hack */
-*{
-  box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-img{
-  display: block;
-  margin: 0 auto;
+img {
+    display: block;
+    margin: 0 auto;
 }
 
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-body{
+body {
     width: 80vw;
     margin: auto;
     font-size: 1.5rem;
     background: black;
     color: white;
-
 }
 
-h1, h2, h3, p{
-    text-align: center;
-    padding: 1rem;
-}
-
-#info {
-    /* display: none; */
-}
-
-#input {
+#input, h1, h2{
     display: flex;
+    text-transform: capitalize;
     justify-content: center;
-
 }
-
-img{
-    height: 60vh;
+span{
+    text-transform: capitalize;
 }
-
-#movers{
+/*#movers {
     display: flex;
     justify-content: space-evenly;
-
-}
-
-#movers button{
-    width: 5.5vw;
-    height: 5vh;
-}
+}*/
