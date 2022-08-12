@@ -23,16 +23,37 @@ body{
     width: 80vw;
     margin: auto;
     font-size: 1.5rem;
+    background: black;
+    color: white;
+
 }
 
-h1{
+h1, h2, h3, p{
     text-align: center;
+    padding: 1rem;
 }
 
-#info{
-    display: none;
+#info {
+    /* display: none; */
+}
+
+#input {
+    display: flex;
+    justify-content: center;
+
 }
 
 img{
-    height: 70vh;
+    height: 60vh;
+}
+
+#movers{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#movers button{
+    width: 5.5vw;
+    height: 5vh;
 }

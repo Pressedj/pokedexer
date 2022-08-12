@@ -39,9 +39,12 @@ function nextCocktail() {
 }
 
 function prevCocktail() {
-    i--
-    getFetch()
-    return i
+    if (i > 0) {
+        i--
+        getFetch()
+    } else {
+        return i
+    }
 
 }
 /*function getFetch() {
